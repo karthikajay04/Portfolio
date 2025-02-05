@@ -1,0 +1,148 @@
+.head{
+    background-color: white;
+ }
+ .bg{
+    background-color: #e9ecef;
+
+ }
+#logo{
+   position: absolute;
+   top: 0;
+   left: 0;
+   scale: 0.5;
+   margin-top: 5px;
+   margin-left: -60px;
+}
+a{
+    text-decoration: none;
+ color: black; 
+font-family: "Open Sans", sans-serif;  
+}
+#one{
+    color: #00a78e;
+    text-decoration: underline;
+    text-decoration-thickness: 2px; 
+    text-underline-offset: 5px;
+    font-family: "Open Sans", sans-serif; 
+}
+li{
+    list-style-type: none;
+    display: inline;
+    margin-left:10px;
+    margin-right: 80px;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding-top:10px;
+}
+.navbar{
+    margin-left: 520px;
+    margin-top: 35px;
+}
+.navbar{
+    animation: fadeIn 2s; 
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0; 
+    }
+    100% {
+      opacity: 1; 
+    }
+  }
+  a:hover{
+    color: #00a78e;
+}
+h2{
+    color:  #00a78e;
+    margin-left: 700px;
+}
+h1{
+    color: black;
+    margin-left: 650px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px; 
+    text-underline-offset: 10px;
+}
+h2,h1 {
+    animation: textFromTop 2s; 
+    animation-fill-mode: forwards; 
+  }
+  
+  @keyframes textFromTop {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  .box{
+    height: 250px;
+    width: 900px;
+    background-color:#00a78e;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 190px;
+    margin: 10px;
+    margin-left: 320px;
+    display: flex;
+}
+h3{
+    font-size: 30px;
+    margin-left: 20px;
+    color:white;
+}
+pre{
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 20px;
+    color: black;
+}
+button{
+    height: 40px;
+    width: 100px;
+    margin-top: 100px;
+    margin-left: 350px;
+    border-radius: 15px;
+    background-color: gray;
+}
+button:hover{
+    background-color: whitesmoke;
+    scale: 1.1;
+}
+.box,#logo22,.so,h4{
+    animation: boxAnimation 1s; 
+    animation-fill-mode: forwards; 
+  }
+  
+  @keyframes boxAnimation {
+    0% {
+      transform: translateY(100%); 
+      opacity: 0; 
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1; 
+    }
+  }
+  #logo22{
+    scale: 0.6;
+    margin-left: 550px;
+  }
+.so{
+    margin-left: 620px;
+}
+#lg{
+    padding: 25px;
+    mix-blend-mode: color-burn;
+}
+h4{
+    font-size: 40px;
+    margin-left: 550px;
+}
